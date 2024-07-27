@@ -26,7 +26,7 @@ def last_prime():
             count = count+1
             
             if count % 50 == 0:
-                c
+                
 
         number = number+1
     
