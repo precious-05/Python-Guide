@@ -6,31 +6,32 @@ from math import sqrt
 def is_prime(number):
     if number <= 1:
         return False  # Numbers less than or equal to 1 are not prime
-    # Loop to check for factors from 2 to the square root of n
-    for i in range(2, int(sqrt(number)) + 1,1):
-        # Check if n is divisible by i
+    # Loop to check for factors from 2 to the square root of the number
+    for i in range(2, int(sqrt(number)) + 1):
+        # Check if the number is divisible by i
         if number % i == 0:
-            return False  # If n is divisible by 2, it is not prime
-    return True  # If no divisors are found, n is prime
+            return False  # If the number is divisible by i, it is not prime
+    return True  # If no divisors are found, the number is prime
 
 def last_prime():
-    # Loop to find the last prime number
+    # Loop to find the first 450 prime numbers
     count = 0
     number = 2
     primes = []
     
     while count < 450:
         if is_prime(number):
-            #print(number) 
+            #print(f"prime number {number}")
             primes.append(number)
-            count = count+1
+            count += 1  # Increment the prime count
             
+            # Print the count of primes found at every 50th prime
             if count % 50 == 0:
-                
-
-        number = number+1
+                print(f"{count} primes {number} have been found.")
+                       
+        number += 1  # Move to the next number
     
-    print(f"Finally! The 450 prime numbers found")
+    print("Finally! The first 450 prime numbers have been found.")
 
 last_prime()
 
