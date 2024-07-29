@@ -1,0 +1,1 @@
+# stop condition number+1     Example number is 7
