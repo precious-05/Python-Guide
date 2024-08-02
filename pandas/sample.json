@@ -1,0 +1,166 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 30,
+        "email": "john.doe@example.com",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "postal_code": "10001"
+        },
+        "phone_numbers": [
+          "+1-555-555-5555",
+          "+1-555-555-5556"
+        ],
+        "is_active": true
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 25,
+        "email": "jane.smith@example.com",
+        "address": {
+          "street": "456 Elm St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90001"
+        },
+        "phone_numbers": [
+          "+1-555-555-5557"
+        ],
+        "is_active": false
+      },
+      {
+        "id": 3,
+        "name": "Emily Davis",
+        "age": 35,
+        "email": "emily.davis@example.com",
+        "address": {
+          "street": "789 Oak St",
+          "city": "Chicago",
+          "state": "IL",
+          "postal_code": "60601"
+        },
+        "phone_numbers": [
+          "+1-555-555-5558"
+        ],
+        "is_active": true
+      },
+      {
+        "id": 4,
+        "name": "Michael Johnson",
+        "age": 40,
+        "email": "michael.johnson@example.com",
+        "address": {
+          "street": "101 Pine St",
+          "city": "Houston",
+          "state": "TX",
+          "postal_code": "77001"
+        },
+        "phone_numbers": [
+          "+1-555-555-5559"
+        ],
+        "is_active": true
+      },
+      {
+        "id": 5,
+        "name": "Sarah Brown",
+        "age": 28,
+        "email": "sarah.brown@example.com",
+        "address": {
+          "street": "202 Maple St",
+          "city": "Philadelphia",
+          "state": "PA",
+          "postal_code": "19101"
+        },
+        "phone_numbers": [
+          "+1-555-555-5560"
+        ],
+        "is_active": false
+      },
+      {
+        "id": 6,
+        "name": "David Wilson",
+        "age": 33,
+        "email": "david.wilson@example.com",
+        "address": {
+          "street": "303 Birch St",
+          "city": "San Antonio",
+          "state": "TX",
+          "postal_code": "78201"
+        },
+        "phone_numbers": [
+          "+1-555-555-5561"
+        ],
+        "is_active": true
+      },
+      {
+        "id": 7,
+        "name": "Jessica Moore",
+        "age": 29,
+        "email": "jessica.moore@example.com",
+        "address": {
+          "street": "404 Cedar St",
+          "city": "San Diego",
+          "state": "CA",
+          "postal_code": "92101"
+        },
+        "phone_numbers": [
+          "+1-555-555-5562"
+        ],
+        "is_active": true
+      },
+      {
+        "id": 8,
+        "name": "Daniel Taylor",
+        "age": 38,
+        "email": "daniel.taylor@example.com",
+        "address": {
+          "street": "505 Spruce St",
+          "city": "Dallas",
+          "state": "TX",
+          "postal_code": "75201"
+        },
+        "phone_numbers": [
+          "+1-555-555-5563"
+        ],
+        "is_active": true
+      },
+      {
+        "id": 9,
+        "name": "Laura Anderson",
+        "age": 27,
+        "email": "laura.anderson@example.com",
+        "address": {
+          "street": "606 Fir St",
+          "city": "San Jose",
+          "state": "CA",
+          "postal_code": "95101"
+        },
+        "phone_numbers": [
+          "+1-555-555-5564"
+        ],
+        "is_active": false
+      },
+      {
+        "id": 10,
+        "name": "Chris Martinez",
+        "age": 31,
+        "email": "chris.martinez@example.com",
+        "address": {
+          "street": "707 Fir St",
+          "city": "Austin",
+          "state": "TX",
+          "postal_code": "73301"
+        },
+        "phone_numbers": [
+          "+1-555-555-5565"
+        ],
+        "is_active": true
+      }
+    ]
+  }
+  
