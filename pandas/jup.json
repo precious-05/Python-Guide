@@ -1,0 +1,56 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.mouseWheelZoom": true,
+    "php.validate.executablePath": "C:/xampp/php/php",
+    "code-runner.languageIdToFileExtensionMap": {
+      "bat": ".bat",
+      "powershell": ".ps1",
+      "typescript": ".ts"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "editor.fontSize": 15,
+    "editor.minimap.size": "fit",
+    "editor.minimap.enabled": false,
+    "autopep8.path": [""],
+    "editor.defaultFoldingRangeProvider": "ms-python.autopep8",
+    "editor.formatOnSave": true,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      },
+      "Windows PowerShell": {
+        "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+      }
+    },
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "vsicons.associations.files": [],
+    "notebook.cellFocusIndicator": "border",
+    "notebook.showFoldingControls": "always",
+    "breadcrumbs.enabled": false,
+    "notebook.lineNumbers": "on",
+    "jupyter.askForKernelRestart": false,
+    "python.createEnvironment.trigger": "off",
+    "workbench.colorTheme": "Jupyter Theme Dark High Contrast",
+    "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "right"
+    }
+  }
+  
