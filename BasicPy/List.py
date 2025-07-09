@@ -18,4 +18,3 @@ avg=Sum/len(List)
 print (f"Sum of the list is {Sum}")
 print (f"Average is {avg}")
 
-min (33)
