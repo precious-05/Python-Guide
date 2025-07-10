@@ -18,3 +18,8 @@ Upper(string)
 Lower(string)
 Reverse(string)
 Hyphen(string)
+#string.swapcase
+#split method
+#Strings are immutable data types
+#They are ordered and can be indexed or sliced
+#count specific words such as count("The")

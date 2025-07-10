@@ -2,7 +2,7 @@
 #----Open the text file in read mode -----  Then read each line by using loop 
 #----Count each word in a line using split() and len() ----- Print the results
 
-file=open("htmll.txt","r")
+file=open("voice control car code.txt","r")
 #content=file.read()
 count=0
  
